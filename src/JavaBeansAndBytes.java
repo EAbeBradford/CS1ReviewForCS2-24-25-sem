@@ -48,11 +48,13 @@ public class JavaBeansAndBytes {
 
         // TODO
         // Create two CoffeeDrink objects
+        CoffeeDrink coffee1 = new CoffeeDrink(2, "chocolate", true);
+        CoffeeDrink coffee2 = new CoffeeDrink(4, "Vanilla", false);
 
         // TODO
         // Print out the order details
-
-
+        coffee1.printInfo();
+        coffee2.printInfo();
     }
 
     // Method to generate a random discount
